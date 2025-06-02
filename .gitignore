@@ -23,10 +23,12 @@ override.tf.json
 *_override.tf
 *_override.tf.json
 
+# Ignore private and public key files
+clo835-key
+clo835-key.pub
+
+
 # .terraform.lock.hcl can be committed if you want dependency locking
 # If you don’t want to commit it:
 # .terraform.lock.hcl
 
-# Ignore private and public key files
-clo835-key
-clo835-key.pub
